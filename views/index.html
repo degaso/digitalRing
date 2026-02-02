@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script src="../node_modules/androidjs/lib/androidjs.js"></script>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 0; padding: 16px; }
+      .btn { width: 100%; padding: 18px; font-size: 18px; margin: 10px 0; }
+    </style>
+  </head>
+  <body>
+    <h2>DigitalRing</h2>
+
+    <button class="btn" onclick="callNumber('095668004900')">degaso GmbH</button>
+    <button class="btn" onclick="callNumber('095688804920')">Achtbit GmbH</button>
+    <button class="btn" onclick="callNumber('017656818905')">Nivomi UG</button>
+
+    <script>
+      function callNumber(number) {
+        // direkt anrufen (CALL_PHONE Permission nötig)
+        try {
+          app.call.makeCall(String(number));
+        } catch (e) {
+          console.log("makeCall failed, fallback to tel:", e);
+          window.location.href = "tel:" + encodeURIComponent(String(number));
+        }
+      }
+    </script>
+  </body>
+</html>
