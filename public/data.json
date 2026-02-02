@@ -5,12 +5,12 @@
         "phone": "095668004900"
     },
     {
-        "name": "Achtbit GmbH",
-        "picture": "https://example.com/restaurant-logo.png",
+        "name": "Achtbit Media GmbH",
+        "picture": "https://raw.githubusercontent.com/degaso/digitalRing/refs/heads/main/public/achtbit.svg",
         "phone": "095688804920"
     },
     {
-        "name": "Nivomi UG",
+        "name": "Nivomi UG (haftungsbeschränkt)",
         "picture": "https://example.com/restaurant-logo.png",
         "phone": "017656818905"
     }
