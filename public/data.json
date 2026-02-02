@@ -1,0 +1,17 @@
+[
+    {
+        "name": "degaso GmbH",
+        "picture": "https://degaso.de/images/degaso-logo.png",
+        "phone": "095668004900"
+    },
+    {
+        "name": "Achtbit GmbH",
+        "picture": "https://example.com/restaurant-logo.png",
+        "phone": "095688804920"
+    },
+    {
+        "name": "Nivomi UG",
+        "picture": "https://example.com/restaurant-logo.png",
+        "phone": "017656818905"
+    }
+]
