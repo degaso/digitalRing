@@ -154,22 +154,6 @@
       const listEl = document.getElementById("list");
       const statusEl = document.getElementById("status");
 
-      // ✅ Langdruck/Markieren/Kontextmenü unterbinden (best effort)
-      document.addEventListener("contextmenu", (e) => e.preventDefault(), { passive: false });
-      document.addEventListener("selectstart", (e) => e.preventDefault(), { passive: false });
-      document.addEventListener("dragstart", (e) => e.preventDefault(), { passive: false });
-
-      // Auf Touch-Geräten: langes Halten löst oft contextmenu/selection aus
-      document.addEventListener(
-        "touchstart",
-        (e) => {
-          // prevent default kann Scrollen stören – daher nur dann blocken,
-          // wenn es auf einem Button passiert
-          if (e.target.closest && e.target.closest(".btn")) e.preventDefault();
-        },
-        { passive: false }
-      );
-
       function callNumber(number) {
         try {
           app.call.makeCall(String(number));
