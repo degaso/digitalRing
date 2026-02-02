@@ -1,7 +1,7 @@
 [
     {
         "name": "degaso GmbH",
-        "picture": "https://raw.githubusercontent.com/degaso/digitalRing/refs/heads/main/public/degaso_auf_Farbe.png",
+        "picture": "https://raw.githubusercontent.com/degaso/digitalRing/refs/heads/main/public/degaso.svg",
         "phone": "095668004900"
     },
     {
@@ -11,7 +11,7 @@
     },
     {
         "name": "Nivomi UG (haftungsbeschränkt)",
-        "picture": "https://example.com/restaurant-logo.png",
+        "picture": "https://raw.githubusercontent.com/degaso/digitalRing/refs/heads/main/public/nivomi.svg",
         "phone": "017656818905"
     }
 ]
