@@ -2,7 +2,7 @@
     {
         "name": "degaso GmbH",
         "picture": "https://raw.githubusercontent.com/degaso/digitalRing/refs/heads/main/public/degaso.svg",
-        "phone": "095668004900"
+        "phone": "095668004999"
     },
     {
         "name": "Achtbit Media GmbH",
@@ -13,5 +13,30 @@
         "name": "Nivomi UG (haftungsbeschränkt)",
         "picture": "https://raw.githubusercontent.com/degaso/digitalRing/refs/heads/main/public/nivomi.svg",
         "phone": "017656818905"
+    },
+    {
+        "name": "ipr GmbH",
+        "picture": "",
+        "phone": ""
+    },
+    {
+        "name": "baur fulfillment solutions GmbH",
+        "picture": "",
+        "phone": ""
+    },
+    {
+        "name": "Vibration Research",
+        "picture": "",
+        "phone": ""
+    },
+    {
+        "name": "Messtechnik Schön",
+        "picture": "",
+        "phone": ""
+    },
+    {
+        "name": "Rott 25 GmbH",
+        "picture": "",
+        "phone": ""
     }
 ]
