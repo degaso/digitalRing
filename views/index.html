@@ -58,6 +58,20 @@
         height: 16px;
       }
 
+      .hint {
+        transition: opacity 0.6s ease, transform 0.6s ease;
+      }
+
+      .hint.fade-out {
+        opacity: 0;
+        transform: translateY(-6px);
+      }
+
+      .hint.fade-in {
+        opacity: 0;
+        transform: translateY(6px);
+      }
+
       .list {
         display: flex;
         flex-direction: column;
@@ -242,6 +256,30 @@
       }
 
       loadData();
+
+      // Rotating hint text in multiple languages
+      const hintTexts = [
+        "Antippen zum Klingeln",
+        "Tap to ring",
+        "Appuyez pour sonner",
+        "Dotknij, aby zadzwonić",
+        "Нажмите, чтобы позвонить"
+      ];
+      let hintIndex = 0;
+      const hintEl = document.querySelector(".hint");
+      const hintSpan = hintEl.querySelector("span");
+
+      setInterval(() => {
+        hintEl.classList.add("fade-out");
+        setTimeout(() => {
+          hintIndex = (hintIndex + 1) % hintTexts.length;
+          hintSpan.textContent = hintTexts[hintIndex];
+          hintEl.classList.remove("fade-out");
+          hintEl.classList.add("fade-in");
+          void hintEl.offsetWidth;
+          hintEl.classList.remove("fade-in");
+        }, 600);
+      }, 3000);
     </script>
   </body>
 </html>

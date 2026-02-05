@@ -16,8 +16,8 @@
     },
     {
         "name": "ipr GmbH",
-        "picture": "",
-        "phone": ""
+        "picture": "https://raw.githubusercontent.com/degaso/digitalRing/refs/heads/main/public/ipr.svg",
+        "phone": "09568896900"
     },
     {
         "name": "baur fulfillment solutions GmbH",
@@ -26,8 +26,8 @@
     },
     {
         "name": "Vibration Research",
-        "picture": "",
-        "phone": ""
+        "picture": "https://raw.githubusercontent.com/degaso/digitalRing/refs/heads/main/public/vr.png",
+        "phone": "036764816363"
     },
     {
         "name": "Messtechnik Schön",
@@ -37,6 +37,6 @@
     {
         "name": "Rott 25 GmbH",
         "picture": "",
-        "phone": ""
+        "phone": "01709488259"
     }
 ]
