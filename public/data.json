@@ -15,16 +15,6 @@
         "phone": "017656818905"
     },
     {
-        "name": "ipr GmbH",
-        "picture": "https://raw.githubusercontent.com/degaso/digitalRing/refs/heads/main/public/ipr.svg",
-        "phone": "0956889690399"
-    },
-    {
-        "name": "baur fulfillment solutions GmbH",
-        "picture": "",
-        "phone": ""
-    },
-    {
         "name": "Vibration Research Europe GmbH",
         "picture": "https://raw.githubusercontent.com/degaso/digitalRing/refs/heads/main/public/vr.png",
         "phone": "036764816363"
@@ -33,5 +23,15 @@
         "name": "Messtechnik Schön",
         "picture": "https://raw.githubusercontent.com/degaso/digitalRing/refs/heads/main/public/schoen.png",
         "phone": "015229556260"
+    },
+    {
+        "name": "baur fulfillment solutions GmbH",
+        "picture": "",
+        "phone": ""
+    },
+    {
+        "name": "ipr GmbH",
+        "picture": "https://raw.githubusercontent.com/degaso/digitalRing/refs/heads/main/public/ipr.svg",
+        "phone": "0956889690399"
     }
 ]
